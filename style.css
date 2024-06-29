@@ -23,8 +23,8 @@ body {
 }
 
 .imagem-destaque {
-    max-width: 100%; // Garante que a imagem não ultrapasse a largura do seu contêiner
-    height: auto; // Altura ajustável de acordo com a largura
+    max-width: 50%; // Garante que a imagem não ultrapasse a largura do seu contêiner
+    height: pequeno;; // Altura ajustável de acordo com a largura
     display: block; // Remove espaços extras abaixo da imagem
     margin: 0 auto; // Centraliza a imagem horizontalmente
 }
