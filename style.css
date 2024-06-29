@@ -100,56 +100,6 @@ nav ul li a:hover {
     background-color: #45a049;
 }
 
-.produto {
-    display: flex;
-    margin-bottom: 40px;
-    align-items: center;
-}
-
-.produto img {
-    width: 300px;
-    height: auto;
-    margin-right: 20px;
-    border-radius: 5px;
-}
-
-.produto .info {
-    flex: 1;
-}
-
-.produto h3 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
-
-.produto p {
-    color: #666;
-    margin-bottom: 20px;
-}
-
-.produto .preco {
-    display: block;
-    font-size: 1.4em;
-    margin-bottom: 20px;
-}
-
-.produto .botao {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.produto .botao:hover {
-    background-color: #45a049;
-}
-
 .contato {
     background-color: #eee;
     padding: 50px 0;
@@ -207,4 +157,9 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 20
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
