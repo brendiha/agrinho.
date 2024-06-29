@@ -22,6 +22,8 @@ header {
 
 .banner {
     margin-bottom: 20px;
+    background-color: #333; /* Fundo cinza escuro */
+    padding: 20px 0;
 }
 
 .banner h1 {
@@ -60,7 +62,7 @@ nav ul li a {
 }
 
 .item {
-    width: 300px;
+    width: 250px; /* Reduzindo o tamanho dos vestidos */
     text-align: center;
     background-color: #fff;
     padding: 10px;
@@ -76,7 +78,7 @@ nav ul li a {
 }
 
 .item h2 {
-    font-size: 18px;
+    font-size: 16px; /* Reduzindo o tamanho do título */
     margin: 0;
 }
 
