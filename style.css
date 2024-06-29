@@ -57,7 +57,7 @@ nav ul li a:hover {
 }
 
 .destaque img {
-    width: 2%;
+    width: 300px;
     height: auto;
     margin-right: 20px;
     border-radius: 5px;
@@ -100,54 +100,21 @@ nav ul li a:hover {
     background-color: #45a049;
 }
 
-.produto {
-    display: flex;
-    margin-bottom: 40px;
-    align-items: center;
-}
-
-.produto img {
-    width: 300px;
-    height: auto;
-    margin-right: 20px;
-    border-radius: 5px;
-}
-
-.produto .info {
-    flex: 1;
-}
-
-.produto h3 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-}
-
-.produto p {
-    color: #666;
-    margin-bottom: 20px;
-}
-
-.produto .preco {
-    display: block;
-    font-size: 1.4em;
-    margin-bottom: 20px;
-}
-
-.produto .botao {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
+.sobre {
+    padding: 50px 0;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 10px;
-    cursor: pointer;
 }
 
-.produto .botao:hover {
-    background-color: #45a049;
+.sobre h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    color: #666;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .contato {
@@ -212,3 +179,4 @@ footer {
 
 footer p {
     margin: 0;
+}
