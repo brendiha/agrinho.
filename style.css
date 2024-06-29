@@ -72,8 +72,8 @@ nav ul li a {
 }
 
 .item img {
-    width: 100%; /* Imagem ocupando toda a largura do item */
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do seu contêiner */
+    width: 10%; /* Imagem ocupando toda a largura do item */
+    max-width: 10o%; /* Garante que a imagem não ultrapasse a largura do seu contêiner */
     border-radius: 10px;
     margin-bottom: 10px;
 }
