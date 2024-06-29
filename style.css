@@ -45,7 +45,7 @@ header p {
 }
 
 .item {
-    width: 300px; /* Largura dos itens */
+    width: 50px; /* Largura dos itens */
     text-align: center;
     background-color: #fff;
     padding: 20px;
@@ -59,7 +59,7 @@ header p {
 }
 
 .item img {
-    width: 100%; /* Imagem ocupando toda a largura do item */
+    width: 50%; /* Imagem ocupando toda a largura do item */
     border-radius: 10px;
     margin-bottom: 10px;
 }
