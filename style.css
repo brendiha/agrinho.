@@ -1,78 +1,95 @@
-* {
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* Estilos gerais */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f0f0; /* Fundo cinza claro */
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Estilos do cabeçalho */
 header {
-    background-color: #ec24ba; /* Cor de fundo do cabeçalho */
-    color: #fff;
-    padding: 20px 0;
+    background-color: #f0f0f0;
+    padding: 10px 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 36px; /* Tamanho do título */
-    margin-bottom: 10px;
+    margin: 0;
 }
 
-header p {
-    font-size: 18px; /* Tamanho do texto */
-    margin-bottom: 20px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-/* Estilos da galeria de vestidos */
-.galeria {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 40px;
-    padding: 40px 0;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-.item {
-    width: 50px; /* Largura dos itens */
-    text-align: center;
-    background-color: #fff;
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+section {
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
 }
 
-.item:hover {
-    transform: translateY(-5px); /* Efeito de levantar o item ao passar o mouse */
+/* Estilos específicos para os vestidos */
+.vestido {
+    margin-bottom: 30px;
 }
 
-.item img {
-    width: 50%; /* Imagem ocupando toda a largura do item */
-    border-radius: 10px;
-    margin-bottom: 10px;
+.vestido img {
+    max-width: 100%;
+    height: auto;
 }
 
-.item h2 {
-    font-size: 20px; /* Tamanho do título dos vestidos */
-    margin-bottom: 10px;
+.vestido h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
 }
 
-/* Estilos do rodapé */
-footer {
-    background-color: #ec24ba; /* Cor de fundo do rodapé */
-    color: #fff;
+.vestido p {
+    color: #666;
+}
+
+.vestido button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
     text-align: center;
-    padding: 20px 0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.vestido button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para o formulário de contato */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label,
+form textarea,
+form input[type="text"],
+form input[type="email"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form textarea {
+    height: 150px;
 }
