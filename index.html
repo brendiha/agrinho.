@@ -1,10 +1,38 @@
-<<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vestidos de 15 anos</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilo CSS para alinhar os vestidos lado a lado */
+        .vestido {
+            display: inline-block; /* Faz com que os vestidos se comportem como blocos de exibição inline */
+            width: 45%; /* Define a largura dos vestidos */
+            margin: 0 2.5%; /* Margem entre os vestidos */
+            vertical-align: top; /* Alinha os vestidos no topo */
+            text-align: center; /* Centraliza o conteúdo dentro dos vestidos */
+        }
+
+        .vestido img {
+            max-width: 100%; /* Garante que as imagens não excedam a largura dos vestidos */
+            height: auto; /* Mantém a proporção das imagens */
+        }
+
+        /* Estilos adicionais para melhorar o layout */
+        header, main, footer {
+            width: 80%; /* Define a largura do conteúdo principal */
+            margin: 0 auto; /* Centraliza o conteúdo na página */
+        }
+
+        @media (max-width: 768px) {
+            .vestido {
+                width: 100%; /* Em telas menores, os vestidos ocupam a largura total */
+                margin: 0 0 20px; /* Margem inferior para separação */
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -27,20 +55,14 @@
                 <h3>Vestido Romântico</h3>
                 <p>Perfeito para o seu dia especial!</p>
                 <img src="vestido1.png" alt="Vestido 1">
-                <a href="#"></a>
+                <a href="#">Ver mais</a>
             </div>
 
             <div class="vestido">
                 <h3>Vestido de Princesa</h3>
                 <p>Um toque de elegância e romance.</p>
                 <img src="vestido2.png" alt="Vestido 2">
-                <a href="#"></a>
+                <a href="#">Ver mais</a>
             </div>
         </section>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Vestidos de 15 anos. Todos os direitos reservados.</p>
-    </footer>
-</body>
-</html>
