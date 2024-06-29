@@ -1,213 +1,134 @@
+bod
 body {
     
-    fo
+    fon
 font-family: Arial, sans-serif;
     
-    margi
-
-    
+    m
 margin: 0;
     
-    paddi
-
-    
+  
 padding: 0;
+    background-color: #f0f0f0;
     
-    backgro
+  
+line-height: 1.6;
+}
 
+
+}
+.container {
     
-background-color: #f0f0f0;
+    max-
+max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
+/* Estilos do cabeçalho */
 
-}
-
-head
-
-}
+h
 header {
-    
-    backg
-
-  
-background-color: #333;
-    
-    c
-color: #fff;
-    
-    paddin
-
-  
-padding: 1.5rem 1rem; /* Aumento do padding para mais destaque */
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
     
     t
 text-align: center;
-    
-    box-shado
-
-    box-s
-
- 
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
 
 }
 
 head
-
-}
-header nav ul {
+header h1 {
     
-    list-st
-
-    l
-list-style-type: none;
-    
-    paddin
-
-    
-padding: 0;
-    
-    marg
-
- 
-margin-top: 1rem; /* Espaço acima do menu */
-}
-
-header nav ul li {
-    
-    disp
-display: inline-block; /* Melhora o espaçamento entre os itens */
-    
-   
-margin-right: 1.5rem;
-}
-
-
-}
-
-hea
-header nav ul li a {
-    
-    colo
-color: #fff;
-    
-    text-decoratio
-
-    text-
-text-decoration: none;
-    font-weight: 600; /* Texto mais em negrito */
-    
-    paddin
-
- 
-padding: 0.5rem 1rem; /* Espaçamento interno nos links */
-    transition: all 0.3s ease; /* Transição suave */
+    m
+margin: 0;
 }
 
 
 }
 
 h
-header nav ul li a:hover {
-    
-    ba
-background-color: #555; /* Cor de fundo ao passar o mouse */
-    
-    bor
-border-radius: 4px; /* Cantos arredondados */
+header nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-
-}
-main {
+header nav ul li {
     
-    padd
-padding: 2rem;
+  
+display: inline;
+    
+    mar
+margin-right: 1rem;
 }
 
-.vestido {
+header nav ul li a {
     
-    back
+   
+color: #fff;
+    
+    text-decorat
 
  
-background-color: #fff;
+text-decoration: none;
+    padding: 0.5rem 1rem;
     
-    paddin
+    transit
+transition: background-color 0.3s ease;
+}
 
-   
-padding: 1.5rem;
+header nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/* Estilos do conteúdo principal */
+main {
+    
+  
+padding: 2rem 0;
+}
+
+
+}
+
+sec
+section {
+    padding: 2rem 0;
+}
+
+
+}
+
+sect
+section h2 {
+    
+    
+margin-bottom: 1rem;
+}
+
+.servico {
     
     m
 margin-bottom: 2rem;
-    
-   
-border-radius: 8px; /* Cantos arredondados */
-    
-    box-sh
-
-    bo
-
-  
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra mais evidente */
-    
-    tra
-transition: transform 0.3s ease; /* Efeito de transformação suave */
 }
 
+/* Estilos do rodapé */
 
-}
-.vestido:hover {
-    
-    t
-transform: translateY(-5px); /* Efeito de levantamento ao passar o mouse */
-}
-
-.vestido img {
-    
-    max
-max-width: 100%; /* Imagem ajustada para ocupar a largura máxima */
-    
- 
-height: auto; /* Mantém a proporção da imagem */
-}
-
-
-}
-
-foot
+foo
 footer {
     
-    backgro
-
-   
+    backg
 background-color: #333;
+    color: #fff;
+    text-align: center;
     
-    c
-color: #fff;
     
-    text-ali
-
-    
-text-align: center;
-    
-   
-padding: 1.5rem;
-    
-    po
-position: fixed;
-    
-    bott
-
- 
-bottom: 0;
-    
-    wi
-width: 100%;
-    
-    box-
-
- 
-box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil na parte inferior */
+padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
