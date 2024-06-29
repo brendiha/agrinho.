@@ -14,14 +14,14 @@ body {
 }
 
 header {
-    background-color: #ec24ba7e; /* Cor de fundo do cabeçalho com transparência */
+    background-color: #ec24ba; /* Cor de fundo do cabeçalho */
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
 
 .banner {
-    background-color: #ec24ba; /* Cor de fundo do banner */
+    background-color: #ec24ba7e; /* Cor de fundo do banner com transparência */
     padding: 20px 0;
     text-align: center;
 }
@@ -32,16 +32,9 @@ header {
     font-weight: normal; /* Estilo de fonte normal */
 }
 
-.banner h1 span {
-    color: #fff;
-    background-color: #ff9aa2; /* Cor de fundo para destacar o texto */
-    padding: 5px 15px; /* Espaçamento interno */
-    border-radius: 10px; /* Borda arredondada */
-}
-
 .banner p {
     margin: 10px 0 0;
-    font-size: 16px; /* Tamanho do texto ajustado */
+    font-size: 18px; /* Tamanho do texto ajustado */
 }
 
 .galeria {
@@ -69,7 +62,7 @@ header {
 }
 
 .item h2 {
-    font-size: 18px; /* Tamanho do título */
+    font-size: 20px; /* Tamanho do título aumentado */
     margin: 10px 0 5px; /* Espaçamento ajustado */
 }
 
