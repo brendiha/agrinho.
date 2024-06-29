@@ -45,14 +45,14 @@ header p {
     text-align: center;
     background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 10%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .item img {
     width: 50%; /* Imagem ocupando toda a largura do item */
-    border-radius: 10px;
-    margin-bottom: 10px;
+    border-radius: 10%;
+    margin-bottom: 10%;
 }
 
 .item h2 {
