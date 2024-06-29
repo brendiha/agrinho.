@@ -1,54 +1,213 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+    
+    fo
+font-family: Arial, sans-serif;
+    
+    margi
+
+    
+margin: 0;
+    
+    paddi
+
+    
+padding: 0;
+    
+    backgro
+
+    
+background-color: #f0f0f0;
 }
 
+
+}
+
+head
+
+}
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
+    
+    backg
+
+  
+background-color: #333;
+    
+    c
+color: #fff;
+    
+    paddin
+
+  
+padding: 1.5rem 1rem; /* Aumento do padding para mais destaque */
+    
+    t
+text-align: center;
+    
+    box-shado
+
+    box-s
+
+ 
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
+
+}
+
+head
+
+}
 header nav ul {
-    list-style-type: none;
-    padding: 0;
+    
+    list-st
+
+    l
+list-style-type: none;
+    
+    paddin
+
+    
+padding: 0;
+    
+    marg
+
+ 
+margin-top: 1rem; /* Espaço acima do menu */
 }
 
 header nav ul li {
-    display: inline;
-    margin-right: 1rem;
+    
+    disp
+display: inline-block; /* Melhora o espaçamento entre os itens */
+    
+   
+margin-right: 1.5rem;
 }
 
+
+}
+
+hea
 header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    
+    colo
+color: #fff;
+    
+    text-decoratio
+
+    text-
+text-decoration: none;
+    font-weight: 600; /* Texto mais em negrito */
+    
+    paddin
+
+ 
+padding: 0.5rem 1rem; /* Espaçamento interno nos links */
+    transition: all 0.3s ease; /* Transição suave */
 }
 
+
+}
+
+h
+header nav ul li a:hover {
+    
+    ba
+background-color: #555; /* Cor de fundo ao passar o mouse */
+    
+    bor
+border-radius: 4px; /* Cantos arredondados */
+}
+
+
+}
 main {
-    padding: 2rem;
+    
+    padd
+padding: 2rem;
 }
 
 .vestido {
-    background-color: #fff;
-    padding: 1rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+    back
+
+ 
+background-color: #fff;
+    
+    paddin
+
+   
+padding: 1.5rem;
+    
+    m
+margin-bottom: 2rem;
+    
+   
+border-radius: 8px; /* Cantos arredondados */
+    
+    box-sh
+
+    bo
+
+  
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra mais evidente */
+    
+    tra
+transition: transform 0.3s ease; /* Efeito de transformação suave */
+}
+
+
+}
+.vestido:hover {
+    
+    t
+transform: translateY(-5px); /* Efeito de levantamento ao passar o mouse */
 }
 
 .vestido img {
-    max-width: 30%;
-    height: auto 30%;
+    
+    max
+max-width: 100%; /* Imagem ajustada para ocupar a largura máxima */
+    
+ 
+height: auto; /* Mantém a proporção da imagem */
 }
 
+
+}
+
+foot
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    
+    backgro
+
+   
+background-color: #333;
+    
+    c
+color: #fff;
+    
+    text-ali
+
+    
+text-align: center;
+    
+   
+padding: 1.5rem;
+    
+    po
+position: fixed;
+    
+    bott
+
+ 
+bottom: 0;
+    
+    wi
+width: 100%;
+    
+    box-
+
+ 
+box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil na parte inferior */
 }
