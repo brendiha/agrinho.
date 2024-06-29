@@ -1,8 +1,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f8f8f8; /* Fundo cinza claro */
-    margin: 0;
+    background-color: #1f00002a; /* Fundo cinza claro */
+    margin: 10;
     padding: 0;
 }
 
@@ -14,14 +14,14 @@ body {
 
 /* Estilos do cabeçalho */
 header {
-    background-color: #ec24ba; /* Cor de fundo do cabeçalho */
-    color: #fff;
+    background-color: #ec24ba5e; /* Cor de fundo do cabeçalho */
+    color: #bb209449;
     padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 48px; /* Tamanho do título */
+    font-size: 50px; /* Tamanho do título */
     margin: 10px 0 5px; /* Espaçamento ajustado */
 }
 
@@ -41,7 +41,7 @@ header p {
 }
 
 .item {
-    width: 300px; /* Largura dos itens */
+    width: 30px; /* Largura dos itens */
     text-align: center;
     background-color: #fff;
     padding: 20px;
@@ -50,13 +50,13 @@ header p {
 }
 
 .item img {
-    width: 10cm; /* Imagem ocupando toda a largura do item */
+    width: 10px; /* Imagem ocupando toda a largura do item */
     border-radius: 10px;
     margin-bottom: 10px;
 }
 
 .item h2 {
-    font-size: 10cm; /* Tamanho do título dos vestidos */
+    font-size: 10px; /* Tamanho do título dos vestidos */
     margin: 10px 0 5px; /* Espaçamento ajustado */
 }
 
