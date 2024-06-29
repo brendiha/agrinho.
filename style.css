@@ -62,22 +62,22 @@ nav ul li a {
 }
 
 .item {
-    width: 10px;
+    width: 20px;
     text-align: center;
     background-color: #ec24ba7e;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .item img {
-    width: 10%;
-    border-radius: 1px;
-    margin-bottom: 1px;
+    width: 10px;
+    border-radius: 1opx;
+    margin-bottom: 1opx;
 }
 
 .item h2 {
-    font-size: 20px;
+    font-size: 10px;
     margin: 0;
 }
 
