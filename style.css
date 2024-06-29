@@ -1,85 +1,53 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f3f3f3;
-    margin: 0;
-    padding: 0;
-}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Festa de 15 Anos</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#programacao">Programação</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#rsvp">RSVP</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-}
+    <section id="sobre" class="container">
+        <h2>Sobre a Festa</h2>
+        <p>Informações sobre a festa de 15 anos.</p>
+    </section>
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
+    <section id="programacao" class="container">
+        <h2>Programação</h2>
+        <p>Detalhes sobre a programação da festa.</p>
+    </section>
 
-header h1 {
-    margin: 0;
-}
+    <section id="galeria" class="container">
+        <h2>Galeria</h2>
+        <p>Galeria de fotos da festa.</p>
+    </section>
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
+    <section id="rsvp" class="container">
+        <h2>RSVP</h2>
+        <p>Confirme sua presença na festa.</p>
+        <form action="rsvp.php" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <button type="submit">Enviar RSVP</button>
+        </form>
+    </section>
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
+    <section id="contato" class="container">
+        <h2>Contato</h2>
+        <p>Informações de contato.</p>
+        <p>Email: exemplo@email.com</p>
+        <p>Telefone: (00) 1234-5678</p>
+    </section>
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-section {
-    padding: 50px 0;
-}
-
-section h2 {
-    text-align: center;
-}
-
-form {
-    width: 60%;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-form label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-form input[type="text"],
-form input[type="email"],
-form input[type="tel"],
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-}
-
-form button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 16px;
-}
+    <footer>
+        <p>&copy; 2024 Festa de 15 Anos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
