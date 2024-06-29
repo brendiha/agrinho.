@@ -45,9 +45,9 @@ section h2 {
 }
 
 .item img {
-    width: 10%;
-    border-radius: 5px;
-    box-shadow: 20 0 20px rgba(0, 0, 0, 0.1);
+    width: 6cm;
+    border-radius: 4px;
+    box-shadow: 20 0 20px rgba(10, 0, 0, 0.1);
 }
 
 footer {
