@@ -62,7 +62,7 @@ nav ul li a {
 }
 
 .item {
-    width: 50px;
+    width: 10px;
     text-align: center;
     background-color: #ec24ba7e;
     padding: 10px;
@@ -71,7 +71,7 @@ nav ul li a {
 }
 
 .item img {
-    width: 50%;
+    width: 10%;
     border-radius: 5%;
     margin-bottom: 5%;
 }
