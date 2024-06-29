@@ -50,7 +50,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 16px; /* Tamanho da fonte dos links reduzido */
+    font-size: 3cap; /* Tamanho da fonte dos links reduzido */
 }
 
 .galeria {
@@ -63,7 +63,7 @@ nav ul li a {
 }
 
 .item {
-    width: 250px; /* Largura dos itens aumentada para exibir melhor os conteúdos */
+    width: 50px; /* Largura dos itens aumentada para exibir melhor os conteúdos */
     text-align: center;
     background-color: #fff;
     padding: 15px;
@@ -72,8 +72,8 @@ nav ul li a {
 }
 
 .item img {
-    width: 10%; /* Imagem ocupando toda a largura do item */
-    max-width: 10%; /* Garante que a imagem não ultrapasse a largura do seu contêiner */
+    width: 100%; /* Imagem ocupando toda a largura do item */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do seu contêiner */
     border-radius: 10px;
     margin-bottom: 10px;
 }
