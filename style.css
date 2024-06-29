@@ -50,7 +50,7 @@ header p {
 }
 
 .item img {
-    width: 100%; /* Imagem ocupando toda a largura do item */
+    width: 10%; /* Imagem ocupando toda a largura do item */
     border-radius: 10px;
     margin-bottom: 10px;
 }
