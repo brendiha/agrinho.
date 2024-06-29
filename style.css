@@ -39,7 +39,7 @@ main {
 }
 
 .vestido img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -51,16 +51,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}<style>
-/* Exemplo com largura máxima de 100px */
-img {
-    max-width: 100px;
-    height: auto; /* Isso garante que a altura seja ajustada proporcionalmente */
 }
-
-/* Ou exemplo com altura máxima de 100px */
-img"vestido1.png" {
-    max-height: 100px;
-    width: auto; /* Isso garante que a largura seja ajustada proporcionalmente */
-}
-</style>
