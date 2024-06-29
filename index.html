@@ -3,61 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vestidos de 15 Anos</title>
+    <title>Loja de Vestidos de 15 Anos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Site de Vestidos de 15 Anos</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#vestidos">Vestidos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Loja de Vestidos de 15 Anos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#vestidos">Vestidos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="home">
-        <h2>Bem-vinda ao nosso site de vestidos de 15 anos!</h2>
-        <p>Aqui você encontrará uma seleção incrível de vestidos para tornar seu dia especial ainda mais inesquecível.</p>
+    <section id="home" class="destaques">
+        <div class="container">
+            <h2>Destaques do Mês</h2>
+            <div class="destaque">
+                <img src="vestido1.jpg" alt="Vestido 1">
+                <div class="info">
+                    <h3>Vestido Azul Celeste</h3>
+                    <p>Um vestido deslumbrante em azul celeste, perfeito para princesas modernas.</p>
+                    <span class="preco">R$ 599,99</span>
+                    <a href="#" class="botao">Ver Detalhes</a>
+                </div>
+            </div>
+            <div class="destaque">
+                <img src="vestido2.jpg" alt="Vestido 2">
+                <div class="info">
+                    <h3>Vestido Rosa Claro</h3>
+                    <p>Um vestido elegante em rosa claro, ideal para celebrações memoráveis.</p>
+                    <span class="preco">R$ 699,99</span>
+                    <a href="#" class="botao">Ver Detalhes</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="vestidos">
-        <h2>Nossos Vestidos</h2>
-        <div class="vestido">
-            <img src="vestido1.jpg" alt="Vestido 1">
-            <h3>Vestido Azul Celeste</h3>
-            <p>Descrição do vestido azul celeste.</p>
-            <button>Ver detalhes</button>
+    <section id="vestidos" class="produtos">
+        <div class="container">
+            <h2>Nossos Vestidos</h2>
+            <div class="produto">
+                <img src="vestido3.jpg" alt="Vestido 3">
+                <div class="info">
+                    <h3>Vestido Lilás</h3>
+                    <p>Um vestido encantador em lilás, ideal para festas de 15 anos.</p>
+                    <span class="preco">R$ 649,99</span>
+                    <a href="#" class="botao">Ver Detalhes</a>
+                </div>
+            </div>
+            <div class="produto">
+                <img src="vestido4.jpg" alt="Vestido 4">
+                <div class="info">
+                    <h3>Vestido Branco Pérola</h3>
+                    <p>Um vestido clássico em branco pérola, perfeito para qualquer ocasião especial.</p>
+                    <span class="preco">R$ 799,99</span>
+                    <a href="#" class="botao">Ver Detalhes</a>
+                </div>
+            </div>
         </div>
-        <div class="vestido">
-            <img src="vestido2.jpg" alt="Vestido 2">
-            <h3>Vestido Rosa Claro</h3>
-            <p>Descrição do vestido rosa claro.</p>
-            <button>Ver detalhes</button>
-        </div>
-        <!-- Outros vestidos aqui -->
     </section>
 
-    <section id="contato">
-        <h2>Entre em Contato</h2>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="enviar_contato.php" method="POST">
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
 
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
+                <div class="campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
 
-            <button type="submit">Enviar</button>
-        </form>
+                <div class="campo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                </div>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Site de Vestidos de 15 Anos. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2024 Loja de Vestidos de 15 Anos. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>

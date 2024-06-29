@@ -1,64 +1,89 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* Reset básico e estilos gerais */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 header {
-    background-color: #f0f0f0;
+    background-color: #333;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2em;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    margin-top: 10px;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: #555;
-}
-
-section {
-    padding: 20px;
-}
-
-/* Estilos específicos para os vestidos */
-.vestido {
-    margin-bottom: 30px;
-}
-
-.vestido img {
-    max-width: 100%;
-    height: auto;
-}
-
-.vestido h3 {
-    margin-top: 10px;
     font-size: 1.2em;
 }
 
-.vestido p {
-    color: #666;
+nav ul li a:hover {
+    color: #ccc;
 }
 
-.vestido button {
+.destaque {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.destaque img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.destaque .info {
+    flex: 1;
+}
+
+.destaque h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.destaque p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.destaque .preco {
+    display: block;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.destaque .botao {
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -71,25 +96,119 @@ section {
     cursor: pointer;
 }
 
-.vestido button:hover {
+.destaque .botao:hover {
     background-color: #45a049;
 }
 
-/* Estilos para o formulário de contato */
-form {
+.produto {
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.produto img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.produto .info {
+    flex: 1;
+}
+
+.produto h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.produto p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.produto .preco {
+    display: block;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.produto .botao {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.produto .botao:hover {
+    background-color: #45a049;
+}
+
+.contato {
+    background-color: #eee;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contato form {
     max-width: 600px;
     margin: 0 auto;
+    text-align: left;
 }
 
-form label,
-form textarea,
-form input[type="text"],
-form input[type="email"] {
+.contato .campo {
+    margin-bottom: 20px;
+}
+
+.contato label {
     display: block;
-    margin-bottom: 10px;
-    width: 100%;
+    margin-bottom: 5px;
 }
 
-form textarea {
+.contato input[type="text"],
+.contato input[type="email"],
+.contato input[type="tel"],
+.contato textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contato textarea {
     height: 150px;
 }
+
+.contato button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.contato button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
