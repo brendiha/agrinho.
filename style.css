@@ -1,9 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #1f00002a; /* Fundo cinza claro */
-    margin: 10;
-    padding: 0;
+    background-color: #f0f0f0; /* Fundo cinza claro */
 }
 
 .container {
@@ -14,26 +18,26 @@ body {
 
 /* Estilos do cabeçalho */
 header {
-    background-color: #ec24ba5e; /* Cor de fundo do cabeçalho */
-    color: #bb209449;
+    background-color: #ec24ba; /* Cor de fundo do cabeçalho */
+    color: #fff;
     padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 50px; /* Tamanho do título */
-    margin: 10px 0 5px; /* Espaçamento ajustado */
+    font-size: 36px; /* Tamanho do título */
+    margin-bottom: 10px;
 }
 
 header p {
-    font-size: 20px; /* Tamanho do texto */
-    margin: 0;
+    font-size: 18px; /* Tamanho do texto */
+    margin-bottom: 20px;
 }
 
 /* Estilos da galeria de vestidos */
 .galeria {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 40px;
@@ -41,56 +45,34 @@ header p {
 }
 
 .item {
-    width: 50%; /* Largura dos itens */
+    width: 300px; /* Largura dos itens */
     text-align: center;
     background-color: #fff;
     padding: 20px;
-    border-radius: 10%;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: translateY(-5px); /* Efeito de levantar o item ao passar o mouse */
 }
 
 .item img {
-    width: 50%; /* Imagem ocupando toda a largura do item */
-    border-radius: 10%;
-    margin-bottom: 10%;
+    width: 100%; /* Imagem ocupando toda a largura do item */
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .item h2 {
-    font-size: 10px; /* Tamanho do título dos vestidos */
-    margin: 10px 0 5px; /* Espaçamento ajustado */
+    font-size: 20px; /* Tamanho do título dos vestidos */
+    margin-bottom: 10px;
 }
 
 /* Estilos do rodapé */
 footer {
-    background-color: #ec24ba5d; /* Cor de fundo do rodapé */
+    background-color: #ec24ba; /* Cor de fundo do rodapé */
     color: #fff;
     text-align: center;
     padding: 20px 0;
-}
-
-.rodape {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.rodape p {
-    margin: 0;
-}
-
-.rodape ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.rodape ul li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.rodape ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
 }
