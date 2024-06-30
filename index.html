@@ -3,80 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja de Vestidos de 15 Anos</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Loja de Vestidos de 15 - Encontre o Seu Vestido Perfeito!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #8b008b;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .highlighted-dresses {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px 0;
+            background-color: #fff;
+            margin-bottom: 20px;
+        }
+        .highlighted-dress {
+            text-align: center;
+            width: 45%;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .highlighted-dress img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .slogan {
+            text-align: center;
+            font-size: 24px;
+            color: #8b008b;
+            margin-bottom: 30px;
+        }
+        .footer {
+            background-color: #8b008b;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Loja de Vestidos de 15 Anos</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#vestidos">Vestidos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
+    <div class="header">
+        <h1>Loja de Vestidos de 15 - Encontre o Seu Vestido Perfeito!</h1>
+    </div>
+    
+    <div class="slogan">
+        <p>Seu dia especial merece o vestido dos sonhos!</p>
+    </div>
+
+    <div class="highlighted-dresses">
+        <div class="highlighted-dress">
+            <img src="vestido1.jpg" alt="Vestido em destaque 1">
+            <h2>Vestido de 15 em Destaque</h2>
+            <p>Descrição do vestido 1...</p>
+            <a href="#">Ver detalhes</a>
         </div>
-    </header>
-
-    <section id="home" class="destaques">
-        <div class="container">
-            <h2>Destaques do Mês</h2>
-            <div class="destaque">
-                <img src="vestido1.png" alt="Vestido 1">
-                <div class="info">
-                    <h3>Vestido vermelho</h3>
-                    <p>Um vestido deslumbrante em vermelho, perfeito para princesas modernas.</p>
-                    <span class="preco">R$ 599,99</span>
-                    <a href="#" class="botao">Ver Detalhes</a>
-                </div>
-            </div>
-            <div class="destaque">
-                <img src="vestido2.png" alt="Vestido 2">
-                <div class="info">
-                    <h3>Vestido Rosa Claro</h3>
-                    <p>Um vestido elegante em rosa claro, ideal para celebrações memoráveis.</p>
-                    <span class="preco">R$ 699,99</span>
-                    <a href="#" class="botao">Ver Detalhes</a>
-                </div>
-            </div>
+        <div class="highlighted-dress">
+            <img src="vestido2.jpg" alt="Vestido em destaque 2">
+            <h2>Vestido de 15 em Destaque</h2>
+            <p>Descrição do vestido 2...</p>
+            <a href="#">Ver detalhes</a>
         </div>
-    </section>
+    </div>
 
-    <section id="contato" class="contato">
-        <div class="container">
-            <h2>Entre em Contato</h2>
-            <form action="enviar_contato.php" method="POST">
-                <div class="campo">
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
-                </div>
-
-                <div class="campo">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div class="campo">
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" id="telefone" name="telefone">
-                </div>
-
-                <div class="campo">
-                    <label for="mensagem">Mensagem:</label>
-                    <textarea id="mensagem" name="mensagem" required></textarea>
-                </div>
-
-                <button type="submit">Enviar Mensagem</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Loja de Vestidos de 15 Anos. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+    <div class="footer">
+        <p>&copy; 2024 Loja de Vestidos de 15. Todos os direitos reservados.</p>
+    </div>
 </body>
 </html>
